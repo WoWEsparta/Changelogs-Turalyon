@@ -1,18 +1,19 @@
 Proceso de customización en Turalyon
 Como ya sabéis estamos trabajando en la creación de un reino más custom y personalizado que cualquiera de nuestros proyectos anteriores, de forma que quede más amplio el campo de juego en este tipo de Reinos. Estos cambios están pensado para 3 ámbitos:
-<font color="#FFFFFF"><b>ÁMBITO EXTERIOR (PROGRAMACIÓN WOW - WEB)</b></font>
+
+ÁMBITO EXTERIOR (PROGRAMACIÓN WOW - WEB)
 + Anticheat & A.N. Teleport: Ahora los jugadores que usan algun tipo de programa que modifique datos principales del jugador (tales como velocidad, oro, escala, teletransporte ...) que puedan causar o no alteraciones en el juego son AUTOMÁTICAMENTE paralizados. Además se envía un mensaje a todos los Maestros de Juego avisando de la posición del Jugador, el motivo, programa usado y otros datos principales (este sistema ha sido añadido al nuevo antihack que ya estaba acabado).
 + VIP account: Los jugadores más élites del servidor dispondrán la categoría de VIP en sus cuentas, de forma que tengan privilegios adiccionales (será explicado con detalle en el siguiente changelog).
 + Adaptación al Español (ESes) del post principal de presentación del parche 4.3: La Hora del Crepúsculo.
 
-<font color="#FFFFFF"><b>ÁMBITO PVP (JUGADOR - JUGADOR)</b></font>
+ÁMBITO PVP (JUGADOR - JUGADOR)
 + Crosssfaction BGs: Se trata de un nuevo sistema que permitirá a jugadores de un mismo bando competir en el contrario, es decir, en caso de comenzar un Campo de Batalla con desnivel de jugadores (véase 13 Hordas vs. 5 Alianzas) el nuevo sistema equilibrará el balance candidatos al campo, uniendo a los nuevos en el bando que más jugadores necesite. Esto permitirá a jugadores Hordas jugar como Alianzas y viceversa en caso de ser necesario. Por supuesto, una vez realizado el cambio de bando en un Campo de Batalla todos tus hechizos serán actualizados y tu raza cambiará temporalmente y durante la BG a la equivalente (ver <a href="http://es.wow.wikia.com/wiki/Razas_Jugables">Equivalencia de razas</a>).
 + Kill & Heal System: Ahora en las BGs son anunciadas las primeras muertes, rachas de asesinatos y sanación de los jugadores. El sistema proporcionará recompensas adiccionales a los jugadores en una racha.
 + NPC Buff (Battlegrounds): Nueva criatura que os aplicará los buffs necesarios para cada clase y función con un click (podrá activarlo un jugador que lleve una racha proporcionada por el sistema anterior). Este estará sólo disponible en Campos de Batalla. En las ciudades y Zonas de Duelos estará disponible 'Akama' que no es automático y funciona por selección de menú.
 + Nuevo sistema ADD_BNPC (NPC die & buff): El desarrollo de este módulo permitirá que al matar a una criatura élite especial y desarrollada por nosotros, se os proporcione al GRUPO un buff especial custom para zonas custom.
 + Nuevos sistema de Logros (JcJ): Hemos acabado el nuevo achievement system, que proporciona distintos logros a los Jugadores (estos logros serán descritos posteriormente en el nuevo changelog).
 
-<font color="#FFFFFF"><b>ÁMBITO PVE (JUGADOR - ENTORNO)</b></font>
+ÁMBITO PVE (JUGADOR - ENTORNO)
 + NPC Enchanter: Está criatura tiene un menú organizado con todos los encantamientos para que podáis encantar todas las distintas casillas del equipo de forma automática.
 + NPC Beastmaster (CAZADORES): Invoca las mascotas para el cazador en una zona del mapa, con un tiempo límite. Una vez seleccionada tu opción, ¡DOMESTÍCALA CAZADOR!.
 + NPC Trainer: Permite aprender todas las habilidades de tu rama de talentos o iniciales de forma automática, así como Doble especialización, Habilidades de mascota (CAZADORES) y otras opciones.
